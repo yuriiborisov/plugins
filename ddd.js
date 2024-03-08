@@ -848,7 +848,7 @@
       }
     }
 
-    if (!window['plugin_sisi_' + Defined.use_api + '_ready']) {
+    // if (!window['plugin_sisi_' + Defined.use_api + '_ready']) {
       startPlugin();
       /*
       if(Defined.use_api == 'pwa'){
@@ -868,6 +868,6 @@
       }
       else startPlugin()
       */
-    }
+    // }
 
 })();
