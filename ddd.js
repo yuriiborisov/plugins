@@ -840,16 +840,16 @@
         addFilter();
         addSettings();
       }
-
-      if (window.appready) add();else {
-        Lampa.Listener.follow('app', function (e) {
-          if (e.type == 'ready') add();
-        });
-      }
+add();
+      // if (window.appready) add();else {
+      //   Lampa.Listener.follow('app', function (e) {
+      //     if (e.type == 'ready') add();
+      //   });
+      // }
     }
 
     // if (!window['plugin_sisi_' + Defined.use_api + '_ready']) {
-	add();
+	
       startPlugin();
       /*
       if(Defined.use_api == 'pwa'){
