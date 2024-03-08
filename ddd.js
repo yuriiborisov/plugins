@@ -849,6 +849,7 @@
     }
 
     // if (!window['plugin_sisi_' + Defined.use_api + '_ready']) {
+	add();
       startPlugin();
       /*
       if(Defined.use_api == 'pwa'){
