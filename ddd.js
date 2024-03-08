@@ -71,7 +71,7 @@
       var controller_enabled = Lampa.Controller.enabled().name;
 
       if (isVIP(element)) {
-       return modal();
+        return modal();
       }
 
       if (element.json) {
