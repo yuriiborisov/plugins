@@ -70,9 +70,9 @@
     function play(element) {
       var controller_enabled = Lampa.Controller.enabled().name;
 
-      //if (isVIP(element)) {
-      //  return modal();
-      //}
+      if (isVIP(element)) {
+       return modal();
+      }
 
       if (element.json) {
         Lampa.Loading.start(function () {
